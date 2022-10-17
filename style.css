@@ -1,0 +1,66 @@
+/*
+Theme Name: The Cretors Creation
+Theme URI: http://www.zamaalazad.com
+Author: Zamaal Azad
+Author URI: www.behance.net/azadiduniya
+Tags: Responsive, Minimal Design, Personal Blog, Portfolio, Articles, Aside, Informational, Minimalistic, Simple, Download
+Description: Using for blog post web sites, professional blog sites, newspaper websites, portfolio websites, landing page. This design totally using core concepts of minimal design system.
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background: #bbb;
+}
+.flex{
+	display: flex;
+}
+.post{
+	flex-direction: column;
+}
+.container{
+	margin: 30px 100px;
+}
+.flex1{
+	flex: 1;
+}
+.flex2{
+	flex: 2;
+}
+.article_content{
+	font-size: 18px;
+	line-height: 24px;
+	color: rgba(0,0,0,0.67);
+}
+.post_element,
+.post h1{
+	background: #fff;
+}
+.post h1{
+	font-size: 3em;
+	padding: 20px 20px 0 40px;
+	margin-top: 10px;
+}
+.post_padding{
+	padding: 40px;
+}
+.post_content{
+	padding: 0 40px inherit;
+}
+.post_padding_media{
+	padding: 40px 10px;
+}
+
+.post_content pre{
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.post_content > p{
+	display: block;
+}
